@@ -1,0 +1,121 @@
+body{
+    background-color:-moz-only-whitespace;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    padding: 2%;
+    margin:0 auto;
+}
+    
+h2{
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(129, 0, 0) ;
+    background-position:center;
+    margin: 0 auto;
+text-align: center;
+padding: 2%;
+}
+
+h3{
+    color: black;
+    background-position: center;
+}
+
+h4{
+    color: black;
+    background-position: left;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   padding: 1%;
+   margin: auto;
+   margin-top: 2%;
+
+}
+
+span{
+    color: white;
+    background-color: rgb(129, 0, 0);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+padding: 1%;
+}
+
+
+
+
+
+
+
+.logo{
+border-radius: 50px 50px;
+width: 50px;
+height: 50px;
+margin: 0 auto;
+}
+
+
+@media (min-width: 1281px) {
+.container{
+width: 1281px;
+
+}
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+.container { 
+width: 1280px;
+
+}
+.banner{
+width: 100%;
+height: auto;
+background-color: gray;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.container{
+width: 1024px;
+
+}
+.banner{
+width: 1024px;
+background-color: gray;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+.container{
+width: 768px;
+
+}
+.banner{
+width: 768px;
+background-color: gray;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+.container{
+width: 481px;
+
+}
+
+}
+@media (min-width: 320px) and (max-width: 480px) {
+.container{
+width: 400px;
+
+
+}
+.banner{
+width: 400px;
+background-color: gray;
+}
+}
+
+
+.container {
+width: 97%;
+margin: 0 auto;
+padding: 6px;
+}
+
